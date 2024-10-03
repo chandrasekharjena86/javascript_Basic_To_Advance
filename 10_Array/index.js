@@ -1,12 +1,11 @@
-// Array 
+// Array
 
-const myArr = [0, 1, 2, 3, 4, 5]
+const myArr = [0, 1, 2, 3, 4, 5];
 // console.log(myArr[0]);
 // console.log(myArr [3]);
 
-
-// Arry method 
-const myArr2 = [0, 1, 2, 3, 4, 5]
+// Arry method
+const myArr2 = [0, 1, 2, 3, 4, 5];
 // myArr2.push(6)
 // myArr2.push(7)
 // myArr2.pop()
@@ -21,11 +20,36 @@ const myArr2 = [0, 1, 2, 3, 4, 5]
 
 // slice and splice
 
-console.log("A ",myArr);
+// console.log("A ",myArr);
 
-const myn1 = myArr.slice(1, 3)
-console.log(myn1)
-console.log("B ",myArr);
-const myn2 = myArr.splice(1, 3)
-console.log("c ",myArr);
+const myn1 = myArr.slice(1, 3);
+console.log(myn1);
+console.log("B ", myArr);
+const myn2 = myArr.splice(1, 3);
+console.log("c ", myArr);
 console.log(myn2);
+
+// Check methods
+
+// // toString()
+
+const fruits = ["banana", "lichi", "graps", "mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+
+//at()
+
+const books = ["math", "phy", "bio", "chem"];
+let book = books.at(2);
+document.getElementById("demo").innerHTML = book;
+
+//join()
+
+const clas = ["math", "phy", "bio", "chem"];
+document.getElementById("demo").innerHTML = clas.join("#");
+
+// pop()
+
+const web = ["html", "css", "js", "react"];
+document.getElementById("demo").innerHTML=web.pop()
+document.getElementById("demo").innerHTML=web
+
